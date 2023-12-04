@@ -1,7 +1,13 @@
 R < main.r --no-save
 # TO DO:
-*  Cleanup readme.md
-*  
+*  ~~Cleanup readme.md~~
+*  Feature add: interface/functionality for backup of sheets
+   *  What does this look like, from a service account?
+   *  Require proper Google account to create new sheets?
+      *  Look into authenticating proper user headlessly (getting API token)
+*  Feature add: script to generate new schedule period/page
+*  Look into writing functions to sheets for Google Sheets to evaluate
+*  Look into formatting
 # DOCUMENTS
 * https://gargle.r-lib.org/articles/non-interactive-auth.html
 * https://cloud.google.com/docs/authentication/api-keys
