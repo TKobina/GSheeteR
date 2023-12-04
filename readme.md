@@ -1,5 +1,7 @@
 R < main.r --no-save
-# TO DO:
+# OVERVIEW
+### Implementing a way to perform data analysis, reads/writes from Google Sheets for a small business; initially, this will be primarily scheduling, but may delve into some analysis of accounting to analyze sales by time, day, holidays, events, who's on shift, etc.;
+# TO DO
 *  ~~Cleanup readme.md~~
 *  Feature add: interface/functionality for backup of sheets
    *  What does this look like, from a service account?
@@ -7,7 +9,9 @@ R < main.r --no-save
       *  Look into authenticating proper user headlessly (getting API token)
 *  Feature add: script to generate new schedule period/page
 *  Look into writing functions to sheets for Google Sheets to evaluate
-*  Look into formatting
+*  Look into formatting of cells, sheets, numbers, etc.
+   *  not looking very promising so far, from the googlesheets4 end
+   *  scripts or macros in Google Sheets to apply formatting automatically? Don't really like having to play with scripts in multiple locations
 # DOCUMENTS
 * https://gargle.r-lib.org/articles/non-interactive-auth.html
 * https://cloud.google.com/docs/authentication/api-keys
