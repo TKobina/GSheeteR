@@ -13,6 +13,7 @@ R < main.r --no-save
    *  not looking very promising so far, from the googlesheets4 end
    *  scripts or macros in Google Sheets to apply formatting automatically? Don't really like having to play with scripts in multiple locations
 # DOCUMENTS
+* https://cran.r-project.org/web/packages/tibble/vignettes/types.html
 * https://gargle.r-lib.org/articles/non-interactive-auth.html
 * https://cloud.google.com/docs/authentication/api-keys
 * https://googlesheets4.tidyverse.org/reference/range_read.html

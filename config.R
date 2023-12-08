@@ -1,6 +1,7 @@
 #holds library invocations and configuration functions to get R and GoogleSheets talking, and pull options from JSON files
 
 library(rjson)
+library(dplyr)
 library(googlesheets4)
 library(tibble)
 
