@@ -1,0 +1,20 @@
+{
+    "schedule": [
+        {
+        "sheet_weeks": 2,
+        "col_emp_role": 1,
+        "col_emp_name": 2,
+        "col_emp_phone": 3,
+        "col_emp_total_hours": 4,
+        "col_first_shift": 5,
+        "columns_per_shift": 4,
+        "col_first_shift_role": 0,
+        "col_first_shift_start": 1,
+        "col_first_shift_end": 2,
+        "col_first_shift_hours": 3,
+        "row_first": 2,
+        "row_last": 31,
+        "cell_start_date": [ 1, 3 ]
+        }
+    ]
+}

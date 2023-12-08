@@ -46,6 +46,7 @@ R < main.r --no-save
       *  creates a new tab/page
    *  'sheet_id %>% sheet_append(data.frame(x=11, letters[11], sheet="df"))'
       *  needs some study, not sure about this
+   *  range_write(ssid, df, sheet = 'sheetname', range = RNG, col_names = TRUE, reformat = FALSE)
 *  Tibbles
 *  POSIXct
    *  Converting to POSIXct
